@@ -1,0 +1,36 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Next.js build files
+.next/
+out/
+
+# Ignore node_modules (for frontend)
+node_modules/
+npm-debug.log
+
+# Ignore system files
+.DS_Store
+.vscode/
+
+# Ignore logs and environment files
+*.log
+.env
+*.env.local
+*.env.development
+*.env.production
+
+# Ignore FastAPI cache files
+*.db
+__pycache__/
+sqlite3.db
+
+# Ignore large model files (e.g., Mistral 7B)
+llama.cpp/models/
+llama.cpp/*.gguf
+llama.cpp/*.bin
+llama.cpp/build/
