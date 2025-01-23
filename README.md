@@ -33,7 +33,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-    This will start the FastAPI backend on http://127.0.0.1:8000.
+This will start the FastAPI backend on http://127.0.0.1:8000.
 
 ### **4️⃣ Set Up the Frontend (Next.js)**
 
@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-    This will start the Next.js frontend on http://localhost:3000.
+This will start the Next.js frontend on http://localhost:3000.
 
 ### **5️⃣ Open the Chatbot in Your Browser**
 
@@ -52,17 +52,18 @@ http://localhost:3000
 ```
 
 ## Start chatting with Mistral 7B locally!
+
 ### **🛠 Development Notes**
 
-    The Mistral 7B model file (.gguf) is NOT included in GitHub because it's too large.
-    You must manually download the model before running the chatbot.
-    The .gitignore file ensures that unnecessary files (node_modules, venv, large models) are NOT pushed to GitHub.
+The Mistral 7B model file (.gguf) is NOT included in GitHub because it's too large.\
+You must manually download the model before running the chatbot.\
+The .gitignore file ensures that unnecessary files (node_modules, venv, large models) are NOT pushed to GitHub.
 
 ### **🚀 Future Improvements**
 
-    Enable streaming responses (like ChatGPT)
-    Save chat history to a local database
-    Deploy to a free cloud server (VPS or Docker)
+Enable streaming responses (like ChatGPT)\
+Save chat history to a local database\
+Deploy to a free cloud server (VPS or Docker)
 
 ### **📌 Need Help?**
 
